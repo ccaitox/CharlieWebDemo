@@ -49,23 +49,5 @@
         <setting name="lazyLoadTriggerMethods" value="equals,clone,hashCode,toString" />
     </settings>
 
-    <!--<typeAliases>-->
-        <!--<package name="com.charlie.entity"/>-->
-    <!--</typeAliases>-->
-
-    <!-- MyBatis 连接MySql数据库 -->
-    <!--<environments default="development">-->
-        <!--<environment id="development">-->
-            <!--&lt;!&ndash; 使用jdbc事务管理 &ndash;&gt;-->
-            <!--<transactionManager type="JDBC" />-->
-            <!--&lt;!&ndash; 配置数据库连接池 &ndash;&gt;-->
-            <!--<dataSource type="POOLED">-->
-                <!--<property name="driver" value="com.mysql.jdbc.Driver" />-->
-                <!--<property name="url" value="jdbc:mysql://111.207.243.70:3606/charlie_web_demo" />-->
-                <!--<property name="username" value="root" />-->
-                <!--<property name="password" value="cYz#P@ss%w0rd$868" />-->
-            <!--</dataSource>-->
-        <!--</environment>-->
-    <!--</environments>-->
 
 </configuration>
