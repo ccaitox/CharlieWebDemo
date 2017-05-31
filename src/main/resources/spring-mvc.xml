@@ -25,8 +25,8 @@
     <!--静态资源映射-->
     <!--本项目把静态资源放在了WEB-INF的子目录下，资源映射如下-->
     <mvc:resources mapping="/css/**" location="/css/"/>
-    <mvc:resources mapping="/css/**" location="/js/"/>
-    <mvc:resources mapping="/css/**" location="/image/"/>
+    <mvc:resources mapping="/js/**" location="/js/"/>
+    <mvc:resources mapping="/image/**" location="/image/"/>
 
     <!-- 配置注解驱动 可以将request参数与绑定到controller参数上 -->
     <mvc:annotation-driven/>
